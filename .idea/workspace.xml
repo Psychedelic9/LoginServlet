@@ -2,11 +2,37 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="MyServlet:Web exploded" />
+      <artifact name="MyServlet:war" />
+      <artifact name="newWar" />
       <artifact name="testWar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a4ecdde-631d-4658-ad1d-bd4d9ade0e96" name="Default Changelist" comment="" />
+    <list default="true" id="6a4ecdde-631d-4658-ad1d-bd4d9ade0e96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/newWar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyServlet_Web_exploded/WEB-INF/classes/servlet/LoginUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyServlet_Web_exploded/WEB-INF/classes/servlet/LoginUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyServlet_Web_exploded/WEB-INF/classes/servlet/MyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyServlet_Web_exploded/WEB-INF/classes/servlet/MyServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyServlet_Web_exploded/WEB-INF/classes/servlet/RegUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyServlet_Web_exploded/WEB-INF/classes/servlet/RegUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyServlet_Web_exploded/WEB-INF/classes/utils/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyServlet_Web_exploded/WEB-INF/classes/utils/JDBCUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyServlet_Web_exploded/WEB-INF/classes/utils/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyServlet_Web_exploded/WEB-INF/classes/utils/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyServlet_Web_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyServlet_Web_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyServlet_war/MyServlet_war.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/testWar/testWar.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/testWar/testWar.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyServlet/servlet/LoginUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyServlet/servlet/LoginUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyServlet/servlet/MyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyServlet/servlet/MyServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyServlet/servlet/RegUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyServlet/servlet/RegUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyServlet/utils/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyServlet/utils/JDBCUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyServlet/utils/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyServlet/utils/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/LoginUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/LoginUserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/MyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/RegUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/RegUserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +46,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -28,15 +57,18 @@
     <option name="CUSTOM_FILTER" value="" />
   </component>
   <component name="ProjectId" id="1TdsOHLKrpp19lgwqRJUecLOt4l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29310346" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -154,11 +186,28 @@
       <workItem from="1573977756228" duration="912000" />
       <workItem from="1574051528382" duration="1531000" />
       <workItem from="1574060087122" duration="2849000" />
-      <workItem from="1574064566898" duration="13424000" />
+      <workItem from="1574064566898" duration="14055000" />
+      <workItem from="1574087383389" duration="208000" />
+      <workItem from="1574087762283" duration="1244000" />
+      <workItem from="1574093555741" duration="4687000" />
+      <workItem from="1574138338614" duration="7131000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

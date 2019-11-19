@@ -18,5 +18,6 @@ public class MyServlet extends HttpServlet {
         System.out.printf("处理Get请求");
         PrintWriter out = resp.getWriter();
         out.println("HelloServlet");
+
     }
 }

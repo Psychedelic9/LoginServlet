@@ -7,22 +7,23 @@
         <servlet-name>HelloServlet</servlet-name>
         <servlet-class>servlet.MyServlet</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>HelloServlet</servlet-name>
-        <url-pattern>/servlet/get</url-pattern>
-    </servlet-mapping>
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>servlet.LoginUserServlet</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>LoginServlet</servlet-name>
-        <url-pattern>/servlet/login</url-pattern>
-    </servlet-mapping>
     <servlet>
         <servlet-name>RegServlet</servlet-name>
         <servlet-class>servlet.RegUserServlet</servlet-class>
     </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/servlet/get</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/servlet/login</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>RegServlet</servlet-name>
         <url-pattern>/servlet/reg</url-pattern>

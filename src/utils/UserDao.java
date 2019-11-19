@@ -40,10 +40,15 @@ public class UserDao {
         ps.setObject(2,user.getPassword());
         ResultSet rs = ps.executeQuery();
         User u =null;
+        System.out.println("???");
         while(rs.next()){
             long id = rs.getLong("phone");
             String password = rs.getString("password");
-            u = new User(id,password);
+            System.out.println("id = "+id+ " pwd =  "+password);
+            System.out.println("phone = "+user.getPhone()+" pwd = "+user.getPassword());
+            if (id==user.getPhone() && password.equals(user.getPassword())){
+                u = new User(id,password);
+            }
         }
         return u;
     }
